@@ -1,0 +1,26 @@
+<div style="display: flex">
+    <form formGroup="form">
+        <div class="form-row">
+            <div class="col-12">
+                <label>nome:</label>
+                <input type="text" class="form-control" formControlName="nome">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col-12">
+                <label>tarja:</label>
+                <input type="text" class="form-control" formControlName="tarja">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col-12">
+                <label>quantidade:</label>
+                <input type="text" class="form-control" formControlName="quantidade">
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary"(click)="onSubmit()">Incluir</button>
+        <button class="btn btn-secondary">Limpar</button>
+
+    </form>
+</div>
