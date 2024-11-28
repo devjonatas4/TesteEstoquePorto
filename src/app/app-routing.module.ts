@@ -3,12 +3,15 @@ import { BancoDadosComponent } from './banco-dados/banco-dados.component';
 import { RouterModule, Routes } from '@angular/router';
 import { MedicamentoComponent } from './medicamento/medicamento.component';
 import { DisponibilidadeComponent } from './disponibilidade/disponibilidade.component';
+import { CardComponent } from './card/card.component';
 
 const routes: Routes = [
   {path: 'medicamento', component: MedicamentoComponent},
   {path: 'disponibilidade', component: DisponibilidadeComponent},
   {path: '', redirectTo:'/medicamento',pathMatch:'full'},
-  {path: 'banco-dados', component:BancoDadosComponent }
+  {path: 'banco-dados', component:BancoDadosComponent },
+  {path: 'card', component:CardComponent},
+
   
 ];
 

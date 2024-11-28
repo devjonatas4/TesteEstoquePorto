@@ -21,7 +21,9 @@
       }
   
       <p class="card-text">Nome: {{ medicamento?.nome }}</p>
-      <p class="card-text">Tarja: {{ medicamento?.tarja }}</p>
+      <p class="card-text">Fabricante: {{ medicamento?.tarja }}</p>
+      <p class="card-text">Quantidade: {{ medicamento?.quantidade }}</p>
+      <button class="btn btn-primary" (click)="onClick()">Editar</button>
       <button class="btn btn-primary" (click)="onClick()">
         <!-- https://icons.getbootstrap.com/icons/trash3-fill/ -->
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3-fill" viewBox="0 0 16 16">
